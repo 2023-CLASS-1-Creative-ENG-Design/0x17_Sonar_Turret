@@ -6,7 +6,7 @@
 
 ### 알림
 더욱 자세한 내용은 wiki에 기입해두었습니다.
-
+[Wiki](https://github.com/2023-CLASS-1-Creative-ENG-Design/0x17_Sonar_Turret/wiki)
 
 
  
