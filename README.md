@@ -5,7 +5,8 @@
 
 
 ### 알림
-더욱 자세한 내용은 [Wiki](https://github.com/2023-CLASS-1-Creative-ENG-Design/0x17_Sonar_Turret/wiki)에 기입해두었습니다.
+* 더욱 자세한 내용은 [Wiki](https://github.com/2023-CLASS-1-Creative-ENG-Design/0x17_Sonar_Turret/wiki)에 기입해두었습니다.  
+* 프로젝트 진행중 어려움은 [Issues](https://github.com/2023-CLASS-1-Creative-ENG-Design/0x17_Sonar_Turret/issues)  
 
 
 
