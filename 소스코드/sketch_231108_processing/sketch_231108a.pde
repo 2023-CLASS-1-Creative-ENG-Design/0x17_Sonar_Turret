@@ -8,13 +8,14 @@ String distance="";
 String data="";
 String noObject;
 float pixsDistance;
+int limitdis = 70;//제한거리
 int iAngle, iDistance;
 int index1=0;
 int index2=0;
 PFont orcFont;
 void setup() {
   
- size (1200, 700); // ***CHANGE THIS TO YOUR SCREEN RESOLUTION***
+ size (1400, 700); // ***CHANGE THIS TO YOUR SCREEN RESOLUTION***
  smooth();
  myPort = new Serial(this,"COM8", 9600); // starts the serial communication
  myPort.bufferUntil('.'); // reads the data from the serial port up to the character '.'. So actually it reads this: angle,distance.
@@ -75,7 +76,7 @@ void drawObject() {
   stroke(255,10,10); // red color
   pixsDistance = iDistance*((height-height*0.1666)*0.025); // covers the distance from the sensor from cm to pixels
   // limiting the range to 40 cms
-  if(iDistance<40){
+  if(iDistance<limitdis){
     // draws the object according to the angle and the distance
   line(pixsDistance*cos(radians(iAngle)),-pixsDistance*sin(radians(iAngle)),(width-width*0.505)*cos(radians(iAngle)),-(width-width*0.505)*sin(radians(iAngle)));
   }
@@ -92,7 +93,7 @@ void drawLine() {
 void drawText() { // draws the texts on the screen
   
   pushMatrix();
-  if(iDistance>40) {
+  if(iDistance>limitdis) {
   noObject = "Out of Range";
   }
   else {
@@ -112,7 +113,7 @@ void drawText() { // draws the texts on the screen
   text("Raspduino ", width-width*0.875, height-height*0.0277);
   text("Angle: " + iAngle +"  ", width-width*0.48, height-height*0.0277);
   text("Distance: ", width-width*0.26, height-height*0.0277);
-  if(iDistance<40) {
+  if(iDistance<limitdis) {
   text("        " + iDistance +" cm", width-width*0.225, height-height*0.0277);
   }
   textSize(25);
