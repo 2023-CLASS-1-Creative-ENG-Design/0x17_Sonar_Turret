@@ -8,7 +8,7 @@
 ## 프리뷰 
 <img src = "https://github.com/2023-CLASS-1-Creative-ENG-Design/0x17_Sonar_Turret/assets/124416213/0d8a4bde-6bb2-468c-ac6d-0f0e2dc4f754" width="50%"></img>  
 
-<img src = "https://github.com/2023-CLASS-1-Creative-ENG-Design/0x17_Sonar_Turret/assets/124416213/62476324-03c2-4b94-a38d-3111149244f7" width="40%"></img>  
+<img src = "https://github.com/2023-CLASS-1-Creative-ENG-Design/0x17_Sonar_Turret/assets/124416213/62476324-03c2-4b94-a38d-3111149244f7" width="50%"></img>  
 
 <img src = "https://github.com/2023-CLASS-1-Creative-ENG-Design/0x17_Sonar_Turret/assets/124416213/25734d8c-ceb7-4003-bfde-e3d2ffc68e99" width="50%"></img>
 
